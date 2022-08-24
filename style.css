@@ -1,0 +1,36 @@
+html,
+body {
+  background-color: lavender;
+  font-family: monospace;
+  text-align: center;
+  font-size: 25px;
+}
+
+.item-list {
+  font-weight: 600;
+}
+
+.item-list:hover {
+  font-weight: 200;
+  text-decoration: line-through;
+  color: rgba(68, 27, 27, 0.747);
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#input,
+#button {
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+#button {
+  background-color: cornflowerblue;
+}
